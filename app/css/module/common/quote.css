@@ -1,0 +1,11 @@
+.quote1 {
+    font-style: italic;
+
+    p:first-child {
+        &::before { content: "« "; }
+    }
+
+    p:last-child {
+        &::after { content: " »"; }
+    }
+}

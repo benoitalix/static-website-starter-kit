@@ -1,0 +1,7 @@
+.lst1 {
+    margin-bottom: 20px;
+    & > li {
+        list-style-type: disc;
+        &:first-child { margin-top: 0; }
+    }
+}

@@ -1,0 +1,7 @@
+/* Note: path must include base filename */
+@font-face {
+  font-family: 'My Font';
+  font-path: '../fonts/myfont';
+  font-weight: normal;
+  font-style: normal;
+}

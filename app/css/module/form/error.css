@@ -1,0 +1,13 @@
+.formError {
+    label {
+        color: var(--error);
+    }
+
+    input[type="text"],
+    input[type="password"],
+    input[type="email"],
+    input[type="tel"] {
+        color: var(--error);
+        border: 1px solid var(--error);
+    }
+}

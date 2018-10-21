@@ -1,0 +1,3 @@
+# Disallow indexing of everything
+User-agent: *
+Disallow: /
